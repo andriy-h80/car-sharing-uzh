@@ -17,6 +17,7 @@ import {
 const Home = () => {
     return (
         <Container>
+            Car Sharing Uzh
         </Container>
     )
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import Favorite from '../components/Favorite';
+import Favorite from '../components/Favorite/Favorite';
 
 const FavoritePage = () => {
 
@@ -18,4 +18,3 @@ const FavoritePage = () => {
   };
   
   export default FavoritePage;
-  

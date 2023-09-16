@@ -8,9 +8,11 @@ import Image from '../src/images/parking.jpg';
 // import logo from './logo.svg';
 import './App.css';
 
-const HomePage = lazy(() => import('pages/HomePage'));
-const CatalogPage = lazy(() => import('pages/CatalogPage'));
-const FavoritePage = lazy(() => import('pages/FavoritePage'));
+const HomePage = lazy(() => import('./pages/HomePage'));
+const CatalogPage = lazy(() => import('./pages/CatalogPage'));
+const FavoritePage = lazy(() => import('./pages/FavoritePage'));
+
+const ImageFallback = () => <img src={Image} alt="car on parking" />;
 
 function App() {
   return (
@@ -30,7 +32,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-     <Suspense fallback={<Image />}>
+     <Suspense fallback={<ImageFallback />}>
      <Routes>
        <Route path="/" element={<HomePage />} />
        <Route path="/catalog" element={<CatalogPage />} />
