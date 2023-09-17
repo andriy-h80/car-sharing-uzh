@@ -1,8 +1,8 @@
 import React from 'react';
 import Home from '../components/Home/Home';
-// import Description from '../components/Description/';
+import Description from '../components/Description/';
 // import ReviewsSlider from '../components/ReviewsSlider/';
-// import Footer from '../components/Footer/';
+import Footer from '../components/Footer/';
 
 const HomePage = () => {
   return (
@@ -17,9 +17,9 @@ const HomePage = () => {
       }}
     >
       <Home />
-      {/* <Description />
-      <ReviewsSlider />
-      <Footer /> */}
+      <Description />
+      {/* <ReviewsSlider /> */}
+      <Footer />
     </div>
   );
 };
