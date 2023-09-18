@@ -1,26 +1,21 @@
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
-// import 'react-toastify/dist/ReactToastify.css';
-// import { useEffect } from 'react';
-// import { ToastContainer } from 'react-toastify';
-import Image from '../src/images/parking.jpg';
+import Loader from './components/Loader';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const CatalogPage = lazy(() => import('./pages/CatalogPage'));
 const FavoritePage = lazy(() => import('./pages/FavoritePage'));
 
-const ImageFallback = () => <img src={Image} alt="car on parking" />;
-
 function App() {
   return (
  
-     <Suspense fallback={<ImageFallback />}>
+    <Suspense fallback={<Loader />}>
      <Routes>
        <Route path="/" element={<HomePage />} />
        <Route path="/catalog" element={<CatalogPage />} />
        <Route path="/favorite" element={<FavoritePage />} />
+       <Route path="*" element={<Navigate to="/" />} />
        </Routes>
-      {/* <ToastContainer /> */}
     </Suspense>
   );
 }

@@ -3,6 +3,7 @@ import Home from '../components/Home/Home';
 import Description from '../components/Description/';
 // import ReviewsSlider from '../components/ReviewsSlider/';
 import Footer from '../components/Footer/';
+import MainPhoto from '../images/holovna.png';
 
 const HomePage = () => {
   return (
@@ -14,6 +15,8 @@ const HomePage = () => {
         justifyContent: 'center',
         minHeight: '100vh',
         backgroundColor: 'inherit',
+        backgroundImage: `url(${MainPhoto})`,
+        backgroundSize: 'cover',
       }}
     >
       <Home />

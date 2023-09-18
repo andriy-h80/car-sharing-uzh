@@ -572,7 +572,7 @@
         "mileage": 4618
     },
     {
-        "id": 9586,
+        "id": 9588,
         "year": 2020,
         "make": "Volvo",
         "model": "XC60",
@@ -648,5 +648,187 @@
         "address": "321 Example Lane, Kharkiv, Ukraine",
         "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
         "mileage": 6234
+    },
+    {
+        "id": 9686,
+        "year": 2010,
+        "make": "Toyota",
+        "model": "Camry",
+        "type": "Sedan",
+        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/toyota_camry.jpg",
+        "description": "The Toyota Camry is a reliable and fuel-efficient sedan known for its practicality and comfort.",
+        "fuelConsumption": "8.0",
+        "engineSize": "2.4L V4",
+        "accessories": [
+            "Cloth seats",
+            "Sunroof",
+            "CD player"
+        ],
+        "functionalities": [
+            "Keyless entry",
+            "Cruise control",
+            "Bluetooth"
+        ],
+        "rentalPrice": "$35",
+        "rentalCompany": "Affordable Car Rentals",
+        "address": "456 Example Road, Kiev, Ukraine",
+        "rentalConditions": "Minimum age: 21\nValid driver's license\nNo security deposit required",
+        "mileage": 7890
+    },
+    {
+        "id": 9687,
+        "year": 2015,
+        "make": "Honda",
+        "model": "Civic",
+        "type": "Sedan",
+        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/honda_civic.jpg",
+        "description": "The Honda Civic is a compact sedan known for its reliability and fuel efficiency.",
+        "fuelConsumption": "7.5",
+        "engineSize": "1.8L V4",
+        "accessories": [
+            "Cloth seats",
+            "Backup camera",
+            "Infotainment system"
+        ],
+        "functionalities": [
+            "Lane departure warning",
+            "Adaptive cruise control",
+            "Apple CarPlay"
+        ],
+        "rentalPrice": "$30",
+        "rentalCompany": "Budget Car Rentals",
+        "address": "789 Sample Avenue, Kiev, Ukraine",
+        "rentalConditions": "Minimum age: 23\nValid driver's license\nSecurity deposit required",
+        "mileage": 6543
+    },
+    {
+        "id": 9688,
+        "year": 2019,
+        "make": "Ford",
+        "model": "Escape",
+        "type": "SUV",
+        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/ford_escape.jpg",
+        "description": "The Ford Escape is a versatile SUV known for its spacious interior and advanced technology.",
+        "fuelConsumption": "9.0",
+        "engineSize": "2.5L V6",
+        "accessories": [
+            "Leather seats",
+            "Navigation system",
+            "Power liftgate"
+        ],
+        "functionalities": [
+            "Lane-keep assist",
+            "Wireless charging",
+            "Rearview camera"
+        ],
+        "rentalPrice": "$45",
+        "rentalCompany": "Premium Car Rentals",
+        "address": "101 Example Lane, Kiev, Ukraine",
+        "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
+        "mileage": 4321
+    },
+    {
+        "id": 9689,
+        "year": 2012,
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "type": "Sedan",
+        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/chevrolet_malibu.jpg",
+        "description": "The Chevrolet Malibu is a comfortable and stylish sedan known for its smooth ride.",
+        "fuelConsumption": "8.5",
+        "engineSize": "2.4L V6",
+        "accessories": [
+            "Cloth seats",
+            "Sunroof",
+            "Bluetooth"
+        ],
+        "functionalities": [
+            "Remote start",
+            "Cruise control",
+            "Satellite radio"
+        ],
+        "rentalPrice": "$38",
+        "rentalCompany": "Economy Car Rentals",
+        "address": "222 Example Boulevard, Kiev, Ukraine",
+        "rentalConditions": "Minimum age: 21\nValid driver's license\nNo security deposit required",
+        "mileage": 9876
+    },
+    {
+        "id": 9690,
+        "year": 2022,
+        "make": "Tesla",
+        "model": "Model 3",
+        "type": "Electric",
+        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/tesla_model_3.jpg",
+        "description": "The Tesla Model 3 is a high-performance electric car with cutting-edge technology.",
+        "fuelConsumption": "Electric",
+        "engineSize": "N/A",
+        "accessories": [
+            "Premium leather seats",
+            "Autopilot",
+            "Large touchscreen display"
+        ],
+        "functionalities": [
+            "Full self-driving capability",
+            "Wireless charging",
+            "Over-the-air updates"
+        ],
+        "rentalPrice": "$60",
+        "rentalCompany": "Electric Car Rentals",
+        "address": "101 Electric Drive, Kiev, Ukraine",
+        "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
+        "mileage": 1121
+    },
+    {
+        "id": 9691,
+        "year": 2017,
+        "make": "Jeep",
+        "model": "Grand Cherokee",
+        "type": "SUV",
+        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/jeep_grand_cherokee.jpg",
+        "description": "The Jeep Grand Cherokee is a rugged SUV built for off-road adventures and on-road comfort.",
+        "fuelConsumption": "12.0",
+        "engineSize": "3.6L V6",
+        "accessories": [
+            "Leather seats",
+            "4WD system",
+            "Tow package"
+        ],
+        "functionalities": [
+            "Terrain select mode",
+            "Remote start",
+            "Navigation system"
+        ],
+        "rentalPrice": "$45",
+        "rentalCompany": "Adventure Car Rentals",
+        "address": "234 Off-Road Trail, Kiev, Ukraine",
+        "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
+        "mileage": 8923
+    },
+    {
+        "id": 9692,
+        "year": 2020,
+        "make": "Audi",
+        "model": "A4",
+        "type": "Sedan",
+        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/audi_a4.jpg",
+        "description": "The Audi A4 is a premium sedan known for its luxury features and advanced technology.",
+        "fuelConsumption": "7.0",
+        "engineSize": "2.0L 4-cylinder",
+        "accessories": [
+            "Leather seats",
+            "Virtual cockpit",
+            "Bang & Olufsen audio"
+        ],
+        "functionalities": [
+            "Adaptive cruise control",
+            "Navigation system",
+            "Quattro all-wheel drive"
+        ],
+        "rentalPrice": "$50",
+        "rentalCompany": "Luxury Car Rentals",
+        "address": "123 Example Street, Kiev, Ukraine",
+        "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
+        "mileage": 4100
     }
 ]

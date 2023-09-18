@@ -6,7 +6,6 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
   height: auto;
 
   @media screen and (max-width: 767px) {
@@ -25,6 +24,7 @@ export const Container = styled.div`
 export const List = styled.ul`
     display: flex;
     flex-direction: column;
+    padding: 0 20px;
     `;
 
 export const Item = styled.li`
@@ -119,14 +119,14 @@ export const TextSpan = styled.ul`
 `;
 
 export const TextItem = styled.li`
-  font-size: 14px;
+  font-size: 16px;
 
   @media screen and (min-width: 768px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 18px;
+    font-size: 20px;
   }
 `;
 

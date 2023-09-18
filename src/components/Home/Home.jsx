@@ -9,12 +9,11 @@ import {
     // Item,
     // ItemSpan,
     // TextSpan,
-    ImageWrapper,
-    Image,
+    // ImageWrapper,
+    // Image,
     // ItemIconLinkedin,
     // ItemIconGithub,
   } from './Home.styled';
-import MainPhoto from '../../images/holovna.png';
 
 const Home = () => {
     return (
@@ -23,9 +22,9 @@ const Home = () => {
                 <Button to='catalog'>CATALOG</Button>
                 <Button to='favorite'>FAVORITE</Button>
             </Header>
-            <ImageWrapper>
+            {/* <ImageWrapper>
                 <Image src={MainPhoto} alt="Man with phone" />
-            </ImageWrapper>
+            </ImageWrapper> */}
 
         </Container>
     )
