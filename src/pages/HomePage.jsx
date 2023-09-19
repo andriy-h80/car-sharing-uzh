@@ -16,7 +16,7 @@ const HomePage = () => {
         minHeight: '100vh',
         backgroundColor: 'inherit',
         backgroundImage: `url(${MainPhoto})`,
-        backgroundSize: 'cover',
+        backgroundSize: '100% auto',
       }}
     >
       <Home />

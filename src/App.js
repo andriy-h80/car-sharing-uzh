@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
-import Loader from './components/Loader';
+import Loader from './components/Loader/Loader';
+import Layout from './components/Layout/Layout';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const CatalogPage = lazy(() => import('./pages/CatalogPage'));
@@ -11,11 +12,13 @@ function App() {
  
     <Suspense fallback={<Loader />}>
      <Routes>
-       <Route path="/" element={<HomePage />} />
-       <Route path="/catalog" element={<CatalogPage />} />
-       <Route path="/favorite" element={<FavoritePage />} />
-       <Route path="*" element={<Navigate to="/" />} />
-       </Routes>
+      <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/catalog" element={<CatalogPage />} />
+          <Route path="/favorite" element={<FavoritePage />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Route>
+      </Routes>
     </Suspense>
   );
 }
